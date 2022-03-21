@@ -16,5 +16,6 @@ jobs:
           ls ${{ github.workspace }}
       - run: echo "🍏 This job's status is ${{ job.status }}."
 
-      - name: Git Version
-        uses: codacy/git-version@2.4.0
+      - name: Upload a Build Artifact
+        uses: actions/upload-artifact@v3.0.0
+
