@@ -16,7 +16,5 @@ jobs:
           ls ${{ github.workspace }}
       - run: echo "🍏 This job's status is ${{ job.status }}."
 
-      - name: App Service Web App Build Action
-        uses: Azure/appservice-build@v2
 
 
